@@ -1,16 +1,18 @@
-# 在线使用的web爬虫
-1. 设计方案
-输入: 
-基础 : url地址 , 请求方法
-简单参数属性支持: 各种简单的参数请求postman请求数据
-复杂生成 : 直接脚本写入自定义的请求的参数配置
+# Vue 3 + TypeScript + Vite
 
-返回结果展现 :
-支持返回resp 请求展示 , 支持支出展示, 支持序列化展示 , 支持表格化处理 , 支持后置处理器能力
+This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-2. 本质上其实一个任务系统
+## Recommended IDE Setup
 
-核心是要制定一整套的抓取流程 。 
+- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
+## Type Support For `.vue` Imports in TS
 
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
 
+If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+
+1. Disable the built-in TypeScript Extension
+   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
+   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
+2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.

@@ -1,2 +1,0 @@
-const puppetter = require("puppeteer");
-
